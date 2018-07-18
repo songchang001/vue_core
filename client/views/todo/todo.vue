@@ -50,7 +50,7 @@ export default {
     toggleFilter (state) {
       this.filter = state
     },
-    clearAllCompleted () {
+    clearAllCompleted (){
       this.todos = this.todos.filter(todo => !todo.completed)
     }
   },
