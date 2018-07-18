@@ -13,6 +13,9 @@
     "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue client/",
     "precommit": "npm run build && npm run lint"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -44,6 +47,7 @@
     "less": "^3.7.1",
     "less-loader": "^4.1.0",
     "postcss-loader": "^2.0.9",
+    "pre-commit": "^1.2.2",
     "rimraf": "^2.6.2",
     "style-loader": "^0.19.1",
     "stylus": "^0.54.5",
