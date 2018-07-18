@@ -1,2 +1,2 @@
-# vue_TODO
-vue入门级todo应用
+# vue_core
+vue核心，基于vue_todo项目
