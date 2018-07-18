@@ -11,7 +11,8 @@
     "clean": "rimraf dish",
     "lint": "eslint --ext .js --ext .jsx --ext .vue client/",
     "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue client/",
-    "precommit": "npm run build && npm run lint"
+    "precommit": "npm run build && npm run lint",
+    "practice":"cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.practice.js"
   },
   "pre-commit": [
     "lint"
